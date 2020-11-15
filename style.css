@@ -1,0 +1,80 @@
+/* CSS RULES TO SPECIFY FONT FAMILIES: */
+
+/* font-family: 'Montserrat', sans-serif; font-family: 'Open Sans', sans-serif; */
+
+*{
+    /* margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainbox {
+    background-color: rgb(25,0,128); /* found this through ginifab.com rgb identifer tool*/
+    display:flex;
+    min-height: 210px;
+    width: 850px;
+    margin-left: 400px;
+    justify-content: space-around;
+    margin-bottom: 75px;
+
+}
+.center-box {
+    background-color: rgb(249,228,182); /* found this through ginifab.com rgb identifer tool*/
+    ;
+    height: 75px;
+    width: 75px; 
+    margin-top: 55px;  
+}
+
+
+/* <<<-----Nav Bar Starts Here---------->> */
+
+#navbar {
+
+}
+
+.logo {
+    display: flex;
+    width: 55%;
+    height: 80px;
+    margin-left: 300px;
+    background-color: rgb(100,149,237);
+    
+}
+
+
+img {
+    align-self: center;
+    height: 60px;
+    margin-right: 50px;
+}
+
+h4 {
+    align-self: center;
+    color: whitesmoke
+    
+}
+
+.textlinks {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;  
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    min-width: 600px;
+    
+}
+
+li, a {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
